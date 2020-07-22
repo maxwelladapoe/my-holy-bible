@@ -1,10 +1,9 @@
 # my_holy_bible
 
-A new Flutter project.
+A recreation of the my holy bible app originally released for android devices only.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
 
 A few resources to get you started if this is your first Flutter project:
 
