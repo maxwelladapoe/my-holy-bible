@@ -1,0 +1,25 @@
+CREATE VIRTUAL TABLE IF NOT EXISTS search_niv_verses using FTS5(
+bcv_name,bible_book,book_id,chapter_number, verse_number, verse_text,is_highlighted,highlighted_color
+);
+
+CREATE VIRTUAL TABLE IF NOT EXISTS search_kjv_verses using FTS5(
+bcv_name,bible_book,book_id,chapter_number, verse_number, verse_text,is_highlighted,highlighted_color
+);
+
+CREATE VIRTUAL TABLE IF NOT EXISTS search_nkjv_verses using FTS5(
+bcv_name,bible_book,book_id,chapter_number, verse_number, verse_text,is_highlighted,highlighted_color
+);
+
+CREATE VIRTUAL TABLE IF NOT EXISTS search_msg_verses using FTS5(
+bcv_name,bible_book,book_id,chapter_number, verse_number, verse_text,is_highlighted,highlighted_color
+);
+
+CREATE VIRTUAL TABLE IF NOT EXISTS search_amp_verses using FTS5(
+bcv_name,bible_book,book_id,chapter_number, verse_number, verse_text,is_highlighted,highlighted_color
+);
+
+--CREATE VIRTUAL TABLE IF NOT EXISTS search_notes using FTS5(
+--bcv_name,bible_book,book_id,chapter_number, verse_number, verse_text,is_highlighted,highlighted_color
+--);
+
+

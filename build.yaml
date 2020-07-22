@@ -1,0 +1,11 @@
+# build.yaml. This file is quite powerful, see https://pub.dev/packages/build_config
+
+targets:
+  $default:
+    builders:
+      moor_generator:
+        options:
+          sqlite_modules:
+            - json1
+            - fts5
+            - moor_ffi
